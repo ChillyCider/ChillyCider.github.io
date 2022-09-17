@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>webring_jump demo</title>
+
+        <style type="text/css">
+            * { box-sizing: border-box; }
+            body { max-width: 720px; margin: auto; }
+        </style>
+    </head>
+
+    <body>
+
+        <h1>Webring demo</h1>
+
+        <p>Right-click and hit "View Source..." if you're curious. The key is <code>rel="webring-site"</code>.</p>
+
+        <h2>Webring members</h2>
+        
+        <nav aria-label="Webring sites">
+            <ul>
+                <li><a rel="webring-site" href="https://chillycider.github.io/webring/">This page</a></li>
+                <li><a rel="webring-site" href="https://chillycider.github.io/webring2/">Another site</a></li>
+            </ul>
+        </nav>
+
+        <div style="background-color: #CCC; border: 2px solid outset; text-align: center; padding: 8px">
+            <p><b>This page is in the <span style="color: #FF0; text-transform: uppercase">ChillyCider webring</span></b></p>
+            <nav aria-label="ChillyCider webring" style="display: flex; flex-flow: row nowrap; justify-content: space-between">
+                <a href="https://chillycider-webring.glitch.io/prev?from=https://chillycider.github.io/webring/">Prev</a>
+                <a href="https://chillycider-webring.glitch.io/random">Random</a>
+                <a href="https://chillycider-webring.glitch.io/next?from=https://chillycider.github.io/webring/">Next</a>
+            </nav>
+        </div>
+    </body>
+</html>
